@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3376841332153482565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3376841332153482568}
+  - component: {fileID: 3376841332153482567}
+  - component: {fileID: 3376841332153482566}
+  - component: {fileID: 2093386863093158791}
+  - component: {fileID: 2474146264704291544}
+  - component: {fileID: 7559029288339941662}
+  m_Layer: 0
+  m_Name: MapTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3376841332153482568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3376841332153482565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3376841332153482567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3376841332153482565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0c87912e8d22940bdd199eefcd3eef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedUnit: {fileID: 0}
+  tileTypes:
+  - name: FloorDungeon0
+    tileVisual: {fileID: 6753813491737617510, guid: fd08059bdd10f4838a75451fd59beebc, type: 3}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: FloorDungeon1
+    tileVisual: {fileID: 7413490532477536890, guid: 00f7c4a0a99f0e15c8aaddae1d6fc621, type: 3}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: FloorDungeon2
+    tileVisual: {fileID: 5194760515851299117, guid: 3160aae383bcd5c4cb921071ffd845bf, type: 3}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: FloorDungeon3
+    tileVisual: {fileID: 0}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: FloorDungeon4
+    tileVisual: {fileID: 0}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: FloorDungeon5
+    tileVisual: {fileID: 0}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: FloorDungeon6
+    tileVisual: {fileID: 0}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: FloorDungeon7
+    tileVisual: {fileID: 0}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: WallDungeon
+    tileVisual: {fileID: 6582513853409740, guid: faff03ecea82b9e8388ceeacd895fa50, type: 3}
+    x: 0
+    y: 0
+    isWalkable: 0
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  - name: Stairs
+    tileVisual: {fileID: 8905711338475285788, guid: 49c7b6380d4941213b2d76ac80d6b1f0, type: 3}
+    x: 0
+    y: 0
+    isWalkable: 1
+    movementCost: 1
+    gCost: 0
+    hCost: 0
+    fCost: 0
+  seed: 0
+  randomSeed: 1
+  mapSize: {x: 0, y: 0}
+  floorSize: 1
+  totalFloorCount: 1000
+  blueprintType: 0
+  floorList: []
+  allTilesVectors: []
+--- !u!114 &3376841332153482566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3376841332153482565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2772bb5c1214d4429427806d7f1c523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2093386863093158791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3376841332153482565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e030806d14a29f14a97a819252715c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomSize: 0
+  hallSize: 2
+--- !u!114 &2474146264704291544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3376841332153482565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98943d6c1960cf14a0be3d5cd5b2f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRoomWidth: 20
+  maxRoomHeight: 20
+--- !u!114 &7559029288339941662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3376841332153482565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea59cef837c19308b1a586f3ce3fae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
